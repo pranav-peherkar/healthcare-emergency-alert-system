@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { HeartPulse, ShieldAlert, Activity, ClipboardList } from "lucide-react";
 
-const API_URL = "http://localhost:5000";
+const API_URL = "https://healthcare-emergency-alert-system.onrender.com";
 
 export default function App() {
   const [form, setForm] = useState({
